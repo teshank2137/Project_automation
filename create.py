@@ -32,7 +32,7 @@ os.mkdir(name)
 new_path = path + '\\' + name
 os.chdir(new_path)
 os.system(f'echo {name} >> READme.md')
-os.system('echo enter_names >> .gitignore')
+os.system('echo enter_classified_files >> .gitignore')
 
 
 # ?github stuff
@@ -61,7 +61,7 @@ if sys.argv[2] == 'jn':
 
 # TODO visual studio
 elif sys.argv[2] == 'vs':
-    os.system('t:\Visual Studio\Common7\IDE\\devenv.exe')
+    os.system('{vstudio path}')
 
 # *visual studio code :: DEFAULT
 else:

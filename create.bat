@@ -1,4 +1,4 @@
 @echo off
 
-cd \Users\tesha\create
+cd \Users\{user_name}\create
 python create.py %1 %2 %3
