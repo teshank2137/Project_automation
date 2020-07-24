@@ -62,6 +62,9 @@ os.system('git push -u origin master')
 if sys.argv[2] == 'jn':
     os.system('jupyter notebook')
 
+elif sys.argv[2] == 'n':
+    os.system('pause')
+
 # TODO visual studio
 elif sys.argv[2] == 'vs':
     os.system('{vstudio path}')
@@ -72,8 +75,6 @@ elif sys.argv[2] == '{shortcut}':
 elif sys.argv[2] == '{shortcut}':
     os.system('{command}')
 
-elif sys.argv[2] == '{shortcut}':
-    os.system('{command}')
 
 # *visual studio code :: DEFAULT
 else:
