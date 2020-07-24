@@ -16,7 +16,7 @@ throw create.py ,token.txt and path.txt file in C:/users/{name}/
 
 ## Usage
 
-in cmd
+in cmd\n
 create {foldername\*} {application to open} {private/public repo}
 
 ## \*indicates requierd
@@ -25,15 +25,15 @@ create {foldername\*} {application to open} {private/public repo}
 
 ## Function
 
-creats folder with project name.
-creats github repo.
-creats READme.md and .gitignore file.
-creats initial commit.
-opens your application in the your folder.
+creats folder with project name.\n
+creats github repo.\n
+creats READme.md and .gitignore file.\n
+creats initial commit.\n
+opens your application in the your folder.\n
 
 ---
 
 #### Creator:
 
-teshank2137
+teshank2137\n
 same username in all platforms!!
