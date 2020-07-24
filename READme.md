@@ -7,7 +7,7 @@
 5. add path of folder where you want to create yor project
 6. replace {} with aprropriate placeholder
 7. edit requierd in create.bat, path.txt, token.txt
-8. create.py file add your fav apllication command
+8. In create.py file add your fav application command
 
 ---
 
