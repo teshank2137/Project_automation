@@ -53,6 +53,9 @@ os.system('git push -u origin master')
 
 #!-------------------------------------------------------------
 # ?add paths to your applicaton here
+# * replace{} with appropriate placeholder
+# * add new apllication as elif sys.argv[2] == '{your shortcut key}'
+# *                        {add 4 spaces}os.system('{command for your application}')
 #!-------------------------------------------------------------
 
 # *jupyter notebook
@@ -62,6 +65,15 @@ if sys.argv[2] == 'jn':
 # TODO visual studio
 elif sys.argv[2] == 'vs':
     os.system('{vstudio path}')
+
+elif sys.argv[2] == '{shortcut}':
+    os.system('{command}')
+
+elif sys.argv[2] == '{shortcut}':
+    os.system('{command}')
+
+elif sys.argv[2] == '{shortcut}':
+    os.system('{command}')
 
 # *visual studio code :: DEFAULT
 else:

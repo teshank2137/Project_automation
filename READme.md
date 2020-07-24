@@ -6,6 +6,8 @@
 4. add github acesstoken in token file
 5. add path of folder where you want to create yor project
 6. replace {} with aprropriate placeholder
+7. edit requierd in create.bat, path.txt, token.txt
+8. create.py file add your fav apllication command
 
 ---
 
@@ -16,7 +18,7 @@ throw create.py ,token.txt and path.txt file in C:/users/{name}/
 
 ## Usage
 
-in cmd\n
+in cmd<br/>
 create {foldername\*} {application to open} {private/public repo}
 
 ## \*indicates requierd
@@ -25,15 +27,15 @@ create {foldername\*} {application to open} {private/public repo}
 
 ## Function
 
-creats folder with project name.\n
-creats github repo.\n
-creats READme.md and .gitignore file.\n
-creats initial commit.\n
-opens your application in the your folder.\n
+creats folder with project name.<br/>
+creats github repo.<br/>
+creats READme.md and .gitignore file.<br/>
+creats initial commit.<br/>
+opens your application in the your folder.<br/>
 
 ---
 
 #### Creator:
 
-teshank2137\n
+teshank2137<br/>
 same username in all platforms!!
